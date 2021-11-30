@@ -6,6 +6,9 @@ let users = [
     {id:4,name:'node004'},
     {id:5,name:'node005'},
     {id:6,name:'node006'},
+    {id:7,name:'dome7'},
+    {id:8,name:'dome8'},
+    {id:9,name:'dome9'},
 ]
 let server = http.createServer(function(req,res){
   res.setHeader('Access-Control-Allow-Origin','*');
