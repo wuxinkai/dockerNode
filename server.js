@@ -15,6 +15,6 @@ let server = http.createServer(function(req,res){
       res.end('Not Found');
   }
 });
-server.listen(8080,()=>{
-    console.log('后端API接口服务器已经启动在8080端口！')
+server.listen(3000,()=>{
+    console.log('后端API接口服务器已经启动在3000端口！')
 });
